@@ -2,7 +2,7 @@
 
 ### Requirements:
 
-NodeJS last version
+NodeJS - https://nodejs.org
 
 ### How to start:
 
