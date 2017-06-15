@@ -28,7 +28,7 @@ GET http://localhost:9001/persons
 
 What is "Promise" and how it works - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
-[Optional. Only if you will chose redux-saga] What is "Generators" and how it works - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators
+[Optional. Only for redux-saga. See bellow] What is "Generators" and how it works - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators
 
 What is "react-router" and how it works - https://reacttraining.com/react-router/web/guides/philosophy
 
