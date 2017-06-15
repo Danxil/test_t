@@ -1,0 +1,29 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "arrow-body-style": ["error", "always"],
+    "class-methods-use-this": 0,
+    "no-continue": 0,
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": [1, { "forbid": ['any', 'array'] }],
+    "import/prefer-default-export": 0,
+    "linebreak-style": 0,
+    "global-require": 0,
+    "func-names": ["error", "never"],
+    "import/no-named-as-default": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+  },
+  "globals": {
+    "FileList": true,
+    "FormData": true,
+    "document": true,
+    "fetch": true,
+    "location": true,
+    "window": true,
+    "Headers": true,
+  }
+}

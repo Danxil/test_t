@@ -1,0 +1,9 @@
+:local(.mainContainer) {
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+:local(.container) {
+  flex-grow: 2;
+}
