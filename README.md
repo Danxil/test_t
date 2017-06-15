@@ -24,6 +24,21 @@ GET http://localhost:9001/profile
 GET http://localhost:9001/persons
 
 
+# Before you start, you should know:
+
+What is "Promise" and how it works - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+[Optional. Only if you will chose redux-saga] What is "Generators" and how it works - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators
+
+What is "react-router" and how it works - https://reacttraining.com/react-router/web/guides/philosophy
+
+What is "react-redux" and how it works - http://redux.js.org/docs/basics/UsageWithReact.html
+
+What is "bootstrap" and how it works - http://getbootstrap.com/
+
+What is "react-bootstrap" and how it works - https://react-bootstrap.github.io/
+
+
 # Tasks:
 Add button "Persons" to the header menu. This button should redirect user to the "Persons page" and "/persons" route.
 
@@ -38,12 +53,3 @@ Which of them to use, is up to you. First one is more simple, second one is more
 
 But pay attention that, redux-saga alreay setted up and used in project. In case, if you will choose redux-thunk - you have to set up it yourself.
 
-### Before you start, you should know:
-
-What is "Promise" and how it works - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-
-[Optional. Only if you will chose redux-saga] What is "Generators" and how it works - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators
-
-What is "react-router" and how it works - https://reacttraining.com/react-router/web/guides/philosophy
-
-What is "react-redux" and how it works - http://redux.js.org/docs/basics/UsageWithReact.html
