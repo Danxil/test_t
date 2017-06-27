@@ -65,8 +65,6 @@ export const requestUserDataSaga = function* () {
 
     yield put({ type: 'REQUEST_USER_DATA_SUCCESS', userData });
   } catch (error) {
-    console.error(error);
-
     yield put({ type: 'REQUEST_USER_DATA_ERROR', requestUserDataError: error.message });
   }
 };

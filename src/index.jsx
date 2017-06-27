@@ -9,6 +9,7 @@ import 'babel-polyfill';
 import createStore from './redux';
 import App from './components/App';
 import Home from './components/Home';
+import Persons from './components/Persons';
 import './style.scss';
 
 
@@ -20,6 +21,7 @@ ReactDOM.render(
       <App>
         <div>
           <Route path="/home" exact component={Home} />
+          <Route path="/persons" exact component={Persons} />
         </div>
       </App>
     </Router>

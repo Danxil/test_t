@@ -60,6 +60,13 @@ export class App extends React.Component {
                 >
                   Home
                 </NavItem>
+                <NavItem
+                  key={'roamt-header-menu-item-persons'}
+                  to={'/persons'}
+                  id={'roamt-header-menu-item-persons'}
+                >
+                  Persons page
+                </NavItem>
                 <li>
                   <a id="roamt-common-header-user">
                     <span className="fa fa-user" />&nbsp;
